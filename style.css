@@ -1,0 +1,101 @@
+body{
+   background : linear-gradient(to right, #00c4dd, #dd0088, #fff200, #00840b);
+   height: 100vh;
+   font-family: "Raleway";
+}
+
+#principal{
+   border: 3px solid #CCC;
+   box-shadow: 5px 5px 0 #555;
+   background-color: #fff;
+   margin : 20px auto;
+   padding: 20px;
+   width: 1200px;
+   border-radius: 20px;
+   height: 90vh;
+   position: relative;
+}
+
+header{
+   border-bottom: 1px solid #555;
+   color: #999;
+   padding: 0 50px 20px 50px;
+   font-style: italic;
+}
+
+nav{
+   border-bottom: 1px solid #555;
+}
+
+ul{
+   display: flex;
+   flex-direction: row;
+   margin: 5px;
+}
+
+li{
+   list-style-type: none;
+   margin : 10px;
+   padding: 10px;
+   background-color: #EEE;
+   border-radius: 10px;
+   box-shadow: 0 0 3px #CCC, 0 3px 3px #555;
+   transition: transform 0.3s ease-in-out;
+}
+
+li:hover{
+   transform: scale(1.1);
+}
+
+a{
+   text-decoration: none;
+}
+
+a>img{
+   margin: 20px;
+   transition: transform 0.3s ease-in-out;
+}
+
+a>img:hover{
+   transform: rotate(10deg);
+   margin: 20px;
+}
+
+footer{
+   border-top: 1px solid #555;
+   color: #999;
+   padding: 20px 50px 0 50px;
+   font-style: italic;
+   margin-top : 20px;
+   position: absolute;
+   bottom: 20px;
+   width: 1100px;
+}
+
+th{
+   padding-bottom: 5px;
+}
+
+td{
+   padding: 5px 10px;
+}
+
+form{
+   display: flex;
+   flex-direction: column;
+   margin: 10px;
+   width: 300px;
+}
+
+label{
+   margin: 5px;
+}
+
+input{
+   margin: 5px;
+}
+
+button{
+   margin: 10px;
+   width: 100px;
+}
